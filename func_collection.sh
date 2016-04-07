@@ -820,7 +820,7 @@ function install_eigen {
 # ======================
 
 function install_catch {
-  if [ ! -e ${MARS_DEV_ROOT}"/install/include/catch.hpp" ]; then
+  if [ ! -e ${MARS_DEV_ROOT}"/install/include/catch/catch.hpp" ]; then
     pushd . > /dev/null 2>&1
     mkdir ${MARS_DEV_ROOT}/install/include/catch
     cp ${MARS_DEV_ROOT}/external/catch.hpp ${MARS_DEV_ROOT}/install/include/catch/catch.hpp 
